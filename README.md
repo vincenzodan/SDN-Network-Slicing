@@ -16,7 +16,8 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 ---
 ## 🛠️ Tecnologie
 
-<div style="display:flex; justify-content:flex-start; gap:30px;">
+
+<div style="display:flex; flex-direction:row; gap:40px; align-items:flex-start;">
 
   <div style="text-align:center;">
     <a href="https://www.python.org/" target="_blank">
@@ -40,6 +41,7 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
   </div>
 
 </div>
+
 
 
 
