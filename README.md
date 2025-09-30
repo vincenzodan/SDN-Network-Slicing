@@ -26,7 +26,7 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
     </td>
     <td align="center">
       <a href="https://mininet.org/" target="_blank">
-        <img width="60" height="60" src="https://github.com/user-attachments/assets/6d83f1f6-baae-444a-9fba-bd53128c0bb2"/><br>
+        <img width="70" height="70" src="https://github.com/user-attachments/assets/6d83f1f6-baae-444a-9fba-bd53128c0bb2"/><br>
         Mininet
       </a>
     </td>
