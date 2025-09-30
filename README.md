@@ -84,8 +84,9 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 - Generare traffico UDP/TCP/ICMP con iperf per testare separazione e priorità dei flussi.
 - Usare Wireshark per monitorare i pacchetti e osservare il comportamento dei flussi e degli slice.
 
-🗂️ Struttura del Progetto
-.
+## 🗂️ Struttura del Progetto
+```
+SDN_Network_Slicing/
 ├── Documentazione.pdf
 ├── README.md
 ├── Topology Slicing/
@@ -99,6 +100,9 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
     ├── topology.py
     └── controller_dynamic.py
 
-👥 Contributors
+```
+---
 
-@Vincenzo D'Angelo
+## 👥 Contributors
+
+- [@Vincenzo D'Angelo](https://github.com/vincenzodan)
