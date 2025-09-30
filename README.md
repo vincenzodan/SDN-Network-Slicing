@@ -16,6 +16,32 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 ---
 ## 🛠️ Tecnologie
 
+## 🛠️ Tecnologie
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <a href="https://www.python.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/><br>
+        Python
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://mininet.org/" target="_blank">
+        <img src="https://github.com/user-attachments/assets/6d83f1f6-baae-444a-9fba-bd53128c0bb2" width="50" height="50"/><br>
+        Mininet
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://ryu.readthedocs.io/" target="_blank">
+        <img src="https://github.com/user-attachments/assets/4c6910aa-764b-444a-b825-c2904dba548d" width="50" height="50"/><br>
+        Ryu
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 <table>
   <tr>
     <td align="center">
