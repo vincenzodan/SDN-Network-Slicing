@@ -16,28 +16,31 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 ---
 ## 🛠️ Tecnologie
 
-<table>
-  <tr>
-    <td align="center" style="vertical-align: middle;">
-      <a href="https://www.python.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" style="vertical-align: middle;"/><br>
-        Python
-      </a>
-    </td>
-    <td align="center" style="vertical-align: middle;">
-      <a href="https://mininet.org/" target="_blank">
-        <img src="https://github.com/user-attachments/assets/6d83f1f6-baae-444a-9fba-bd53128c0bb2" width="50" height="50" style="vertical-align: middle;" /><br>
-        Mininet
-      </a>
-    </td>
-    <td align="center" style="vertical-align: middle;">
-      <a href="https://ryu.readthedocs.io/" target="_blank">
-        <img src="https://github.com/user-attachments/assets/4c6910aa-764b-444a-b825-c2904dba548d" width="50" height="50" style="vertical-align: middle;" /><br>
-        Ryu
-      </a>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap;">
+
+  <div style="text-align: center;">
+    <a href="https://www.python.org/" target="_blank">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" style="display: block; margin: 0 auto;"/>
+      Python
+    </a>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="https://mininet.org/" target="_blank">
+      <img src="https://github.com/user-attachments/assets/6d83f1f6-baae-444a-9fba-bd53128c0bb2" width="50" height="50" style="display: block; margin: 0 auto;"/>
+      Mininet
+    </a>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="https://ryu.readthedocs.io/" target="_blank">
+      <img src="https://github.com/user-attachments/assets/4c6910aa-764b-444a-b825-c2904dba548d" width="50" height="50" style="display: block; margin: 0 auto;"/>
+      Ryu
+    </a>
+  </div>
+
+</div>
+
 
 
 
