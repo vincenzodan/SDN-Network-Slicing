@@ -15,9 +15,32 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 
 ---
 ## 🛠️ Tecnologie
-<table> <tr> <td align="center"> <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/><br> Python </a> </td> <td align="center"> <a href="https://mininet.org/" target="_blank"> <img src="<img width="50" height="50"/>
-" width="50" height="50"/><br> Mininet </a> </td> <td align="center"> <a href="https://ryu.readthedocs.io/" target="_blank"> <img src="<img width="50" height="50" alt="image"/>
-" width="50" height="50"/><br> Ryu Controller </a> </td> </tr> </table>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.python.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/><br>
+        Python
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://mininet.org/" target="_blank">
+        <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/6d83f1f6-baae-444a-9fba-bd53128c0bb2" /><br>
+        Mininet
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://ryu.readthedocs.io/" target="_blank">
+        <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/4c6910aa-764b-444a-b825-c2904dba548d" /><br>
+        Ryu
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
 
 ## ⚙️ Prerequisiti
 
@@ -48,16 +71,12 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
    ```
 
 ## 📖 Istruzioni per l'Esecuzione
-1. **Installare i requisiti** dal file `requirements.txt`:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-2. **Avvio del controller**: Posizionarsi nella cartella del controller desiderato (Topology / Service / Dynamic) e avviare:
+1. **Avvio del controller**: Posizionarsi nella cartella del controller desiderato (Topology / Service / Dynamic) e avviare:
    ```bash
    ryu-manager controller_slicing.py # oppure controller_serv.py, controller_dynamic.py a seconda del caso
    ```
-3. **Avvio della topologia**:
+2. **Avvio della topologia**:
    ```bash
    sudo python3 topology.py
    ```
