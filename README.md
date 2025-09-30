@@ -15,7 +15,9 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 
 ---
 ## 🛠️ Tecnologie
-<table> <tr> <td align="center"> <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/><br> Python </a> </td> <td align="center"> <a href="https://mininet.org/" target="_blank"> <img src="https://mininet.org/images/logo.png" width="50" height="50"/><br> Mininet </a> </td> <td align="center"> <a href="https://ryu.readthedocs.io/" target="_blank"> <img src="https://ryu.readthedocs.io/en/latest/_static/ryu_logo.png" width="50" height="50"/><br> Ryu Controller </a> </td> </tr> </table>
+<table> <tr> <td align="center"> <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/><br> Python </a> </td> <td align="center"> <a href="https://mininet.org/" target="_blank"> <img src="<img width="50" height="50"/>
+" width="50" height="50"/><br> Mininet </a> </td> <td align="center"> <a href="https://ryu.readthedocs.io/" target="_blank"> <img src="<img width="50" height="50" alt="image"/>
+" width="50" height="50"/><br> Ryu Controller </a> </td> </tr> </table>
 
 ## ⚙️ Prerequisiti
 
@@ -37,13 +39,13 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 3. **Installazione Mininet**
     ```bash
    git clone https://github.com/mininet/mininet
-  cd mininet
-  git tag
-  git checkout -b mininet-2.3.0 2.3.0
-  cd ..
-  sudo PYTHON=python3 mininet/util/install.sh -nv
-  sudo mn --switch ovsbr --test pingall  # Test installazione
-  ```
+   cd mininet
+   git tag
+   git checkout -b mininet-2.3.0 2.3.0
+   cd ..
+   sudo PYTHON=python3 mininet/util/install.sh -nv
+   sudo mn --switch ovsbr --test pingall  # Test installazione
+   ```
 
 ## 📖 Istruzioni per l'Esecuzione
 1. **Installare i requisiti** dal file `requirements.txt`:
