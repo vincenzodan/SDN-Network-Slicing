@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SDN Dashboard - Banda e Latenza</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>SDN Monitoring Dashboard</h1>
+<p>Monitoraggio in tempo reale della banda e della latenza degli switch OpenFlow.</p>
+
+<div class="filters">
+    <label for="filter-dpid">Filtra per switch:</label>
+    <select id="filter-dpid">
+        <option value="all">Tutti</option>
+    </select>
+
+    <label for="filter-port">Filtra per porta:</label>
+    <select id="filter-port">
+        <option value="all">Tutte</option>
+    </select>
+</div>
+
+<h3>📊 Banda per porta</h3>
+<canvas id="bandwidth-bar" width="800" height="300"></canvas>
+
+<h3>⏱️ Latenza per switch</h3>
+<canvas id="latency-line" width="800" height="300"></canvas>
+
+<h3>🔎 Dettaglio porte per switch</h3>
+<table id="port-stats">
+    <tr>
+        <th>DPID</th>
+        <th>Port</th>
+        <th>RX Mbps</th>
+        <th>TX Mbps</th>
+        <th>Total Mbps</th>
+        <th>Latenza (ms)</th>
+    </tr>
+</table>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
