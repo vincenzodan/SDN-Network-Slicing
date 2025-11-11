@@ -69,13 +69,14 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli completi
 
 ## 📖 Istruzioni per l'Esecuzione
 
-1. **Avvio del controller**: Posizionarsi nella cartella del controller desiderato (Topology / Service / Dynamic) e avviare:
-   ```bash
-   ryu-manager controller_slicing.py # oppure controller_serv.py, controller_dynamic.py a seconda del caso
-   ```
-2. **Avvio della topologia**:
+1. **Avvio della topologia**:
    ```bash
    sudo python3 topology.py
+   ```
+   
+2. **Avvio del controller**: Posizionarsi nella cartella del controller desiderato (Topology / Service / Dynamic) e avviare:
+   ```bash
+   ryu-manager controller_slicing.py # oppure controller_serv.py, controller_dynamic.py a seconda del caso
    ```
 
 ## 🧪 Verifica
