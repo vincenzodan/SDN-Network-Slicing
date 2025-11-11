@@ -2,12 +2,12 @@
 
 Questo progetto si concentra sulla gestione del traffico in reti Software Defined Network (SDN) tramite Mininet e controller Ryu, implementando diverse politiche di slicing per isolare e prioritizzare flussi di traffico.
 
-- [Topology Slicing](./Topology_Slicing): implementa una rete slice-specifica dove determinati host comunicano solo attraverso percorsi prestabiliti.  
+- [Topology Slicing](./Topology%20Slicing): implementa una rete slice-specifica dove determinati host comunicano solo attraverso percorsi prestabiliti.  
   • H1 comunica esclusivamente con H3 tramite lo slice superiore (upper path).  
   • H2 comunica esclusivamente con H4 tramite lo slice inferiore (lower path).  
   Include inoltre una dashboard per il monitoraggio visivo della rete.
-- [Service Slicing](./Service_Slicing): separa il traffico video (UDP porta 9999) da quello normale, garantendo priorità ai pacchetti video.
-- [Dynamic Slicing](./Dynamic_Slicing): permette al traffico normale di utilizzare temporaneamente lo slice video quando la banda disponibile lo consente, mantenendo sempre priorità al traffico video.
+- [Service Slicing](./Service%20Slicing): separa il traffico video (UDP porta 9999) da quello normale, garantendo priorità ai pacchetti video.
+- [Dynamic Slicing](./Dynamic%20Slicing): permette al traffico normale di utilizzare temporaneamente lo slice video quando la banda disponibile lo consente, mantenendo sempre priorità al traffico video.
 
 ## 📘 Documentazione Tecnica
 
